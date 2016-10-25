@@ -166,7 +166,9 @@ def scan(wslist):
 					else:
 						scanned[i-1] = original2
 						scanned[i] = original
-						return False					
+						return False
+				else:
+					return True					
 			elif scanned[i+1] == "|-":
 				scanned[i] = "-|"
 				# know the one before must be long
@@ -323,12 +325,6 @@ def scan(wslist):
 		print "SUCCESS"
 
 	print scanned
-
-
-
-
-
-
 
 
 if __name__ == "__main__":
