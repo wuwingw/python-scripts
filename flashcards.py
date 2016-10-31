@@ -2,6 +2,13 @@
 
 # SIMPLE FLASHCARDS
 
+# TODO:
+# - function for adding new flashcard definitions
+# - choose how many flashcards you want to do
+# - only testing ones you've got wrong the majority of the time
+# - only removing one term at a time, meaning we could have cards like:
+# 		[red] and [blue] makes [purple]
+
 import argparse
 import csv
 import re
